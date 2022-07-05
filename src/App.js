@@ -70,14 +70,15 @@ function App() {
                                     }
                                     return <input type="text" onChange={onChange} value={q}/>
                                 })}
-                                <span>row sum: {getSumRows(r)}</span>
+                                <span><b>row sum: {getSumRows(r)}</b></span>
                             </div>
+                            
                         </div>
                     )
                 )
             }
-            <div>{getSumArray(matrixArray)}</div>
-
+            
+            <div className='sumArray'>sum of Array: {getSumArray(matrixArray)}</div>
             <div className='click'>
                 <input type="button" onClick={increaseMatrix} value={'+'}/>
                 <input type="button" onClick={decreaseMatrix} value={'-'}/>
