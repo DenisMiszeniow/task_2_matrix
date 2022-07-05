@@ -1,3 +1,12 @@
+# TASK MATRIX:
+
+Napisz aplikacje w React.js wyświetlającą matrycę n x n  z polami liczbowymi (domyślnie wartości losowe od 1 do 999), w które można wpisać inne liczby (po kliknięciu w liczbę można ją edytować wpisując tylko cyfry). 
+Każdy wiersz matrycy powinien wyświetlać po prawej stronie sumę w wierszu, na samym dolę sumę wszystkich liczb w matrycy. 
+Dodatkowo na ekranie są dwa przyciski [+] i [-] pozwalające na zwiększanie lub zmniejszanie liczby n (wielkości matrycy). 
+Liczby w polach mogą być maksymalnie 3 cyfrowe.
+![image](https://user-images.githubusercontent.com/98120263/177392448-703df599-adb4-4fa8-b09a-f5bc5f021007.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
